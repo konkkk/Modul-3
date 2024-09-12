@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal kuliah </title>
+</head>
+<body>
+
+<h2>Jadwal Kuliah</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Hari</th>
+            <th>Mata Kuliah - Dosen Pengajar - Jam - Ruang</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="highlight">
+            <td rowspan="2">Minggu</td>
+            <td>Praktikum Arsitektur Komputer<br>Norma Ningsih - 08:00 sd 09:40<br>SAW-03.08</td>
+        </tr>
+        <tr>
+            <td>Matematika 1<br>Rini Satiiti - 10:30 sd 12:10<br>B 304</td>
+        </tr>
+        <tr class="highlight">
+            <td rowspan="3">Selasa</td>
+            <td>Elektronika Digital 1<br>Karimatun Nisa' - 08:00 sd 09:40<br>B 205</td>
+        </tr>
+        <tr>
+            <td>Agama<br>Mohammad Ridwan (Dosen LB) - 10:30 sd 12:10<br>HH-101</td>
+        </tr>
+        <tr>
+            <td>Praktikum Elektronika Digital 1<br>Affifah Dwi Ramadhani - 13:50 sd 15:30<br>H-202</td>
+        </tr>
+        <tr class="highlight">
+            <td rowspan="2">Rabu</td>
+            <td>Praktikum Sistem Komunikasi<br>Aries Priyastoro - 08:00 sd 09:40<br>SAW-04.07</td>
+        </tr>
+        <tr>
+            <td>Praktikum Algoritma dan Struktur Data<br>Nailul Muna - 09:40 sd 11:20<br>SAW-04.06</td>
+        </tr>
+        <tr class="highlight">
+            <td rowspan="2">Kamis</td>
+            <td>Sistem Komunikasi<br>Aries Priyastoro - 10:30 sd 12:10<br>B 301</td>
+        </tr>
+        <tr>
+            <td>Workshop Teknologi Web dan Aplikasi<br>Ahmad Zainudin - 13:50 sd 16:20<br>SAW-04.06</td>
+        </tr>
+        <tr class="highlight">
+            <td rowspan="2">Jumat</td>
+            <td>Arsitektur Komputer<br>Norma Ningsih - 08:00 sd 09:40<br>HH-106B</td>
+        </tr>
+        <tr>
+            <td>Algoritma dan Struktur Data<br>Nailul Muna - 09:40 sd 11:20<br>HH-106T</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="jam-istirahat">Jam Istirahat: 12:10 sd 13:00 WIB</div>
+    <a href="modul3.html" class="back-button">Kembali ke Home</a>
+</body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        font-size: 14px; /* Smaller font size */
+    }
+
+    th, td {
+        border: 1px solid #22476C;
+        padding: 8px; /* Smaller padding */
+        text-align: left;
+    }
+
+    th {
+        background-color: #336699;
+        color: #ffffff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #E6E6E6;
+    }
+
+    tr:hover {
+        background-color: #D1E1F3;
+    }
+
+    .highlight {
+        background-color: #A5C8E0;
+    }
+
+    .jam-istirahat {
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 16px; /* Slightly larger for visibility */
+    }
+    .back-button {
+            display: block;
+            width: 150px;
+            padding: 10px;
+            margin: 20px auto;
+            text-align: center;
+            background-color: #336699;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #22476C;
+        }
+</style>
+</html>
